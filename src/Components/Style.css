@@ -1,0 +1,237 @@
+/* --------Congratulation------- */
+.cus-Bg-Image {
+    background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+}
+
+
+/* ---------superover--------- */
+
+.main {
+    background-color: black;
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+    border: 0;
+}
+
+.logo1,
+.logo2 {
+    height: 40%;
+    position: relative;
+    left: 35%;
+
+}
+
+/* ---------Social Buttons--------- */
+
+.bgImage-Button {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv-qjnZzi6-RRHKkUZcluyqPfPY7nVYQqBjg&usqp=CAU");
+    background-size: cover;
+}
+
+.socialButton_Heading {
+    font-size: 4rem;
+    font-family: sans-serif;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+    .button_Comment {
+        width: auto;
+    }
+}
+
+/* ---------Notification--------- */
+/* CSS not useing by this task */
+
+
+/* ---------------MEMBER LOGIN--------------- */
+
+.loginBackground {
+    background-image: linear-gradient(to right, rgb(117, 2, 184), rgb(177, 15, 177));
+
+    width: 100%;
+    padding: 5%;
+}
+
+.loginLogo {
+    width: 20vw;
+    position: relative;
+    margin: auto;
+    left: 10%;
+    top: 20%;
+}
+
+.img-fluid {
+    width: 50%;
+}
+
+.loginUser {
+    border: 1px solid black;
+    width: 20vw;
+    background-color: rgb(215, 215, 215);
+}
+
+.eMail {
+    border: none;
+    background: transparent;
+}
+
+.loginPassword {
+    border: 1px solid black;
+    width: 20vw;
+    background-color: rgb(215, 215, 215);
+}
+
+.loginBackground .password {
+    border: none;
+    background: transparent;
+}
+
+.btn {
+    width: 11.5rem;
+    background-color: rgb(116, 187, 10);
+}
+
+.userLink {
+    color: green;
+}
+
+.createAccount {
+    color: red;
+}
+
+/* -----------Technology-------- */
+
+.technology {
+    background-color: aqua;
+}
+
+.technology .card {
+    border-radius: 20px;
+}
+
+.technology h1 {
+    text-align: center;
+}
+
+.technology .subtitle {
+    text-align: center;
+}
+
+.technology .DS {
+    box-shadow: 0px -5px red;
+}
+
+.technology .IOT {
+    box-shadow: 0px -5px rgb(85, 191, 233);
+}
+
+.technology .VR {
+    box-shadow: 0px -5px rgb(7, 172, 7);
+}
+
+.technology .ML {
+    box-shadow: 0px -5px rgb(228, 228, 49);
+}
+
+
+/* -------------- Hooks Assignment ------------- */
+
+.count {
+    text-align: center;
+    /* height: 25vh; */
+}
+
+.count1,
+.spn {
+    color: red;
+}
+
+.fruit {
+    background-color: rgb(241, 217, 172);
+}
+
+.mango,
+.banana {
+    height: 300px;
+    width: 300px;
+    mix-blend-mode: color-burn;
+}
+
+
+.mangopart {
+    width: fit-content;
+}
+
+.fbtn {
+    text-align: center;
+}
+
+.ak {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+}
+
+.feedback {
+    background-image: linear-gradient(to right, white 25%, pink 75%);
+    height: 100vh;
+    width: 100%;
+    /* margin-top: 100px; */
+}
+
+.feedbackimg {
+    height: 100px;
+    width: 100px;
+    /* margin-left: 230px; */
+    margin-top: 33px;
+
+}
+
+.feedbackbody {
+    height: 60vh;
+    width: 100%;
+    border: 2px solid palevioletred;
+    align-items: center;
+}
+
+.thankyouimg {
+    height: 100px;
+    width: 100px;
+
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    /* margin-top: 100px;
+    margin-bottom: -100px; */
+
+}
+
+p {
+    text-align: center;
+}
+
+.imgdiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heartdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.datefun {
+
+    border: 2px solid black;
+    width: fit-content;
+}
+
+.card-rate,
+.card-price {
+    text-align: unset;
+}
